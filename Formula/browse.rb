@@ -1,6 +1,6 @@
 class Browse < Formula
   desc "Persistent headless browser CLI for AI agents"
-  homepage "https://juanheyns.github.io/gstack-browse/"
+  homepage "https://github.com/juanheyns/gstack-browse"
   version "1.0.16"
   license "MIT"
 

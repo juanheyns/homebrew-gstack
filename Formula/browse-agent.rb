@@ -1,10 +1,10 @@
 class BrowseAgent < Formula
   desc "Claude AI add-on for browse — enables the sidebar agent"
-  homepage "https://juanheyns.github.io/gstack-browse/"
+  homepage "https://github.com/juanheyns/gstack-browse"
   version "1.0.16"
   license "MIT"
 
-  depends_on "juanheyns/gstack-browse/browse"
+  depends_on "juanheyns/gstack/browse"
 
   on_macos do
     on_arm do
