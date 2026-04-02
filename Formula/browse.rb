@@ -31,12 +31,14 @@ class Browse < Formula
     bin.install "server.mjs"
   end
 
-  def post_install
-    if which("bun")
-      system bin/"browse", "setup-chromium"
-    else
-      opoo "bun not found — run `browse setup-chromium` manually after installing bun"
-    end
+  def caveats
+    <<~EOS
+      To finish setup, install Chromium:
+        browse setup-chromium
+
+      Requires bun (https://bun.sh). Install it first if you haven't:
+        curl -fsSL https://bun.sh/install | bash
+    EOS
   end
 
   test do
