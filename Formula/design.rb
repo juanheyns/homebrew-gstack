@@ -7,7 +7,7 @@ class Design < Formula
   on_macos do
     on_arm do
       url "https://github.com/juanheyns/gstack-design/releases/download/v1.0.1/design-darwin-arm64.tar.gz"
-      sha256 "a86031792fd0d3e4b13da44d91f130346ab905ab6c37a9ba7184442961bfc22e"
+      sha256 "6c1cf66ddd030bc40f167ba16a61fac06bbf5740fe71d9a0544754b8e6c3dab2"
     end
     on_intel do
       url "https://github.com/juanheyns/gstack-design/releases/download/v1.0.0/design-darwin-x86_64.tar.gz"
@@ -18,7 +18,7 @@ class Design < Formula
   on_linux do
     on_arm do
       url "https://github.com/juanheyns/gstack-design/releases/download/v1.0.1/design-linux-arm64.tar.gz"
-      sha256 "4e4000dfac31dd623a725b1b9cc9e4838bb69119ba9b6ce66b934344bf29adca"
+      sha256 "0a1d2b51b7439966fe178e520154da182445ebf3b09b3be770c4b6ff586730ed"
     end
     on_intel do
       url "https://github.com/juanheyns/gstack-design/releases/download/v1.0.0/design-linux-x86_64.tar.gz"
