@@ -29,6 +29,7 @@ class Browse < Formula
   def install
     bin.install "browse"
     bin.install "server.mjs"
+    bin.install ".version" if File.exist?(".version")
     (share/"browse").install "extension"
   end
 
